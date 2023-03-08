@@ -11,7 +11,7 @@ b. Configure it to use bridge drivers.
 
 c. Set it to use subnet 10.10.1.0/24 and iprange 10.10.1.3/24.
 ===========
-    1  docker network ls
-    2  docker network create -d bridge --subnet=10.10.1.0/24 --ip-range=10.10.1.3/24 news 
-    3  docker network ls
-    4  docker network inspect news
+    docker network ls
+    docker network create -d bridge --subnet=10.10.1.0/24 --ip-range=10.10.1.3/24 news 
+    docker network ls
+    docker network inspect news
