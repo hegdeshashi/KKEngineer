@@ -9,3 +9,22 @@ The Nautilus development team started with new project development. They have cr
 
 
 Copy sample index.html file from jump host to storage server under cloned repository at /usr/src/kodekloudrepos, add/commit the file and push to master branch.
+
+thor@jump_host:
+   2  ls /tmp
+    3  sudo scp /tmp/index.html natasha@ststor01:/tmp
+    4  ssh natasha@ststor01
+root@ststor01 official
+    1  pwd
+    2  ls /tmp
+    3  ls -lart /tmp
+    4  cd /usr/src/kodekloudrepos/
+    5  ls -lart
+    6  cd official/
+    7  ls -lart
+    8  cp /tmp/index.html .
+    9  ls -lart
+   10  git add index.html 
+   11  git commit -m "added index.html"
+   12  git push -u origin master
+   13  history
