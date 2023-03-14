@@ -60,3 +60,6 @@ spec:
         - name: nginx-container
 
           image: nginx:latest
+=
+
+kubectl apply -f nginx.yaml
