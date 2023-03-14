@@ -63,3 +63,5 @@ spec:
 =
 
 kubectl apply -f nginx.yaml
+verify again to check -->
+kubectl get all
