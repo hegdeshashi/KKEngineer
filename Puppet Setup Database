@@ -43,3 +43,8 @@ class mysql_database {
 node 'stdb01.stratos.xfusioncorp.com' {
   include mysql_database
 }
+============
+puppet parser validate cluster.pp
+
+==========
+login to stdb01 with sudo --> puppet agent -tv
