@@ -48,3 +48,5 @@ puppet parser validate cluster.pp
 
 ==========
 login to stdb01 with sudo --> puppet agent -tv
+check mariadb is running or not -> systemctl status mariadb
+
