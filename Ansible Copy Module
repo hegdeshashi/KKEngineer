@@ -30,3 +30,17 @@ stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=Am3ric@  ansible_user=steve
 stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=BigGr33n  ansible_user=banner
 -------------
 ansible all -a "ls -ltr /opt/devops" -i inventory
+
+ cat playbook.yml
+
+- name: Ansible copy
+
+  hosts: all
+
+  become: yes
+
+  tasks:
+
+    - name: copy index.html to devops folder
+
+      copy: src=/usr/src/devops/index.html dest=/opt/devops
