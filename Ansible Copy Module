@@ -44,3 +44,6 @@ ansible all -a "ls -ltr /opt/devops" -i inventory
     - name: copy index.html to devops folder
 
       copy: src=/usr/src/devops/index.html dest=/opt/devops
+
+----------
+ansible-playbook -i inventory playbook.yml
