@@ -50,3 +50,4 @@ ansible-playbook -i inventory playbook.yml
 
 now validate the changes :
 ansible all -a "ls -ltr /opt/devops" -i inventory
+===================
