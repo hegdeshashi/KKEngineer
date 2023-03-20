@@ -20,3 +20,5 @@ docker cp /tmp/nautilus.txt.gpg ubuntu_latest:/tmp
 docker exec ubuntu_latest ls -lrt /tmp --->
 total 4
 -rw-r--r-- 1 root root 74 Mar 20 03:31 nautilus.txt.gpg
+
+confirm & complete
