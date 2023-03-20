@@ -13,3 +13,5 @@ On App Server 3 in Stratos Datacenter copy an encrypted file /tmp/nautilus.txt.g
 Solution:
 
 login to stapp03 with sudo
+
+docker ps
