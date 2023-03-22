@@ -26,3 +26,25 @@ Notes: :- Please make sure to run the puppet agent test using sudo on agent node
 Solution:
 cd /etc/puppetlabs/code/environments/production/manifests/
 cat apps.pp--->
+
+class file_modifier {
+
+   # Update ecommerce.txt under /opt/dba
+
+   file { '/opt/dba/ecommerce.txt':
+
+     ensure => 'present',
+
+     content => 'Welcome to xFusionCorp Industries!',
+
+     mode => '0777',
+
+   }
+
+ }
+
+ node 'stapp02.stratos.xfusioncorp.com' {
+
+   include file_modifier
+
+ }
