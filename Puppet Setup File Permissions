@@ -24,3 +24,4 @@ Notes: :- Please make sure to run the puppet agent test using sudo on agent node
 
 
 Solution:
+cd /etc/puppetlabs/code/environments/production/manifests/
