@@ -53,3 +53,4 @@ class file_modifier {
 puppet parser validate apps.pp
 
 login to stapp02 with sudo--->
+puppet agent -tv
