@@ -56,3 +56,4 @@ login to stapp02 with sudo--->
 puppet agent -tv
 now validate the file:
 cat /opt/dba/ecommerce.txt 
+it has to display -->Welcome to xFusionCorp Industries!
