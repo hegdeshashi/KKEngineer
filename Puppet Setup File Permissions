@@ -54,3 +54,5 @@ puppet parser validate apps.pp
 
 login to stapp02 with sudo--->
 puppet agent -tv
+now validate the file:
+cat /opt/dba/ecommerce.txt 
