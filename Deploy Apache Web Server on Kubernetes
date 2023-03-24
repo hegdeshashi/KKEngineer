@@ -57,3 +57,4 @@ kubectl create  ns httpd-namespace-nautilus
 kubectl create -f tmp.yaml -n httpd-namespace-nautilus
 
 kubectl get all -n httpd-namespace-nautilus
+now verify service and deployments .
