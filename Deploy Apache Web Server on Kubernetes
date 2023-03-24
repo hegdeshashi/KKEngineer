@@ -37,7 +37,7 @@ metadata:
   labels:
     app: httpd_app_nautilus
 spec:
-  replicas: 4
+  replicas: 2
   selector:
     matchLabels:
       app: httpd_app_nautilus
@@ -51,3 +51,9 @@ spec:
           image: httpd:latest
           ports:
             - containerPort: 80
+------------
+
+kubectl create  ns httpd-namespace-nautilus
+kubectl create -f tmp.yaml -n httpd-namespace-nautilus
+
+kubectl get all -n httpd-namespace-nautilus
