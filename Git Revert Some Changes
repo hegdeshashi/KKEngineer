@@ -14,3 +14,17 @@ Use revert games message (please use all small letters for commit message) for t
 ---------------
 SOlution:
 ------------------
+login to storage server with sudo :
+ssh natasha@ststor01 --
+
+ 1  cd /usr/src/kodekloudrepos/games/
+    2  ls
+    3  git status
+    4  git log
+    5  git revert HEAD
+    6  git add .
+    7  git commit -m "revert data"
+    8  git log
+
+
+verify now..
