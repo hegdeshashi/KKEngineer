@@ -15,3 +15,58 @@ Labels app should be httpd_app, and labels type should be front-end. The contain
 All pods should be running state after deployment.
 
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
+================
+
+cat replica.yaml--->
+apiVersion: v1
+
+kind: ReplicationController
+
+metadata:
+
+  name: httpd-replicationcontroller
+
+  labels:
+
+    app: httpd_app
+
+    type: front-end
+
+spec:
+
+  replicas: 3
+
+  selector:
+
+    app: httpd_app
+
+  template:
+
+    metadata:
+
+      name: httpd_pod
+
+      labels:
+
+        app: httpd_app
+
+        type: front-end
+
+    spec:
+
+      containers:
+
+        - name: httpd-container
+
+          image: httpd:latest
+
+          ports:
+
+            - containerPort: 80
+=========
+
+kubectl apply -f replica.yaml
+
+kubectl get all
+
+verify that all pods are running state.. & confirm.& close
