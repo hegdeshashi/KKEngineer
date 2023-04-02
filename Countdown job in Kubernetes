@@ -37,4 +37,10 @@ spec:
             ]
       restartPolicy: Never
 --------------
+kubectl apply -f countdown.yaml
+check pod status -- > has to complete
+kubectl get pods
 
+once completed check the logs of the pods..
+
+now complete & verify
