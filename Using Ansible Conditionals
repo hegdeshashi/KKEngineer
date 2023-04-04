@@ -25,3 +25,79 @@ Note: Validation will try to run the playbook using command ansible-playbook -i 
 =================
 Solution:
 
+  pwd
+    2  ls
+    3  cd ansible/
+    4  ls
+    5  ansible all -a "ls -ltr /opt/security" -i inventory 
+
+
+cat playbook.yaml-->
+
+- name: Copy text files to Appservers
+
+  hosts: all
+
+  become: yes
+
+  tasks:
+
+    - name: Copy blog.txt to stapp01
+
+      ansible.builtin.copy:
+
+        src: /usr/src/security/blog.txt
+
+        dest: /opt/security/
+
+        owner: tony
+
+        group: tony
+
+        mode: "0655"
+
+      when: inventory_hostname == "stapp01"
+
+    - name: Copy story.txt to stapp02
+
+      ansible.builtin.copy:
+
+        src: /usr/src/security/story.txt
+
+        dest: /opt/security/
+
+        owner: steve
+
+        group: steve
+
+        mode: "0655"
+
+      when: inventory_hostname == "stapp02"
+
+    - name: Copy media.txt to stapp03
+
+      ansible.builtin.copy:
+
+        src: /usr/src/security/media.txt
+
+        dest: /opt/security/
+
+        owner: banner
+
+        group: banner
+
+        mode: "0655"
+
+      when: inventory_hostname == "stapp03"
+----------
+  pwd
+    2  ls
+    3  cd ansible/
+    4  ls
+    5  ansible all -a "ls -ltr /opt/security" -i inventory 
+    6  vi playbook.yaml
+    7  ansible-playbook -i inventory playbook.yaml 
+    8  vi playbook.yaml
+    9  ansible-playbook -i inventory playbook.yaml 
+   10  ansible all -a "ls -ltr /opt/security" -i inventory 
+Now, check & confirm
