@@ -32,7 +32,7 @@ Solution:
     5  ansible all -a "ls -ltr /opt/security" -i inventory 
 
 
-cat playbook.yaml-->
+cat playbook.yml-->
 
 - name: Copy text files to Appservers
 
@@ -96,8 +96,8 @@ cat playbook.yaml-->
     4  ls
     5  ansible all -a "ls -ltr /opt/security" -i inventory 
     6  vi playbook.yaml
-    7  ansible-playbook -i inventory playbook.yaml 
+    7  ansible-playbook -i inventory playbook.yml 
     8  vi playbook.yaml
-    9  ansible-playbook -i inventory playbook.yaml 
+    9  ansible-playbook -i inventory playbook.yml 
    10  ansible all -a "ls -ltr /opt/security" -i inventory 
 Now, check & confirm
