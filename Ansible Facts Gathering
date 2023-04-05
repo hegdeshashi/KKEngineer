@@ -71,4 +71,5 @@ Now, validate the task by curl to all app server and check
  curl http://stapp02
  curl http://stapp03
 
-
+-----------
+confirm & close the task.
