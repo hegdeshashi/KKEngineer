@@ -15,3 +15,5 @@ Ansible managed node IP is <default ipv4 address>
 
 Install httpd server on all apps. After that make a copy of facts.txt file as index.html under /var/www/html directory. Make sure to start httpd service after that.
 Note: Do not create a separate role for this task, just add all of the changes in index.yml playbook.
+=======
+Solution:
