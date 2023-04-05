@@ -17,3 +17,58 @@ Install httpd server on all apps. After that make a copy of facts.txt file as in
 Note: Do not create a separate role for this task, just add all of the changes in index.yml playbook.
 =======
 Solution::
+
+
+
+cat index.yml-->
+---
+
+-
+
+  hosts: stapp01, stapp02, stapp03
+
+  gather_facts: true
+
+  become: yes
+
+  become_method: sudo
+
+  tasks:
+
+    - name: create a  file using blockinfile
+
+      blockinfile:
+
+       create: yes
+
+       path: /root/facts.txt
+
+       block: |
+
+         Ansible managed node IP is {{ ansible_default_ipv4.address }}
+
+    - name: Install apache packages
+
+      package:
+
+       name: httpd
+
+    - name: file copy
+
+      shell: cp /root/facts.txt /var/www/html/index.html
+
+    - name: ensure httpd is running
+
+      systemd:
+
+       name: httpd
+
+       state: restarted
+---------
+ansible-playbook -i inventory index.yml
+Now, validate the task by curl to all app server and check
+      curl http://stapp01
+ curl http://stapp02
+ curl http://stapp03
+
+
