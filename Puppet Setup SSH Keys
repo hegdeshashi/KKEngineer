@@ -95,3 +95,4 @@ now login to stapp01 with sudo--> ssh tony@stapp01
 puppet agent -tv
 
 logout & try to  run--> ssh tony@stapp01
+now try same for stapp02 & 03
