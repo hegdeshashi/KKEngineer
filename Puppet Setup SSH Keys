@@ -17,4 +17,5 @@ Notes: :- Before clicking on the Check button please make sure to verify puppet 
 
 :- Please note that once lab is loaded, the puppet server service should start automatically on puppet master server, however it can take upto 2-3 minutes to start.
 ----------------
+Solution:
 
