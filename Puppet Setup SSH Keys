@@ -18,4 +18,80 @@ Notes: :- Before clicking on the Check button please make sure to verify puppet 
 :- Please note that once lab is loaded, the puppet server service should start automatically on puppet master server, however it can take upto 2-3 minutes to start.
 ----------------
 Solution:
+log into jump host using sudo
+cd /etc/puppetlabs/code/environments/production/manifests
+cat games.pp-->
 
+$public_key =  'AAAAB3NzaC1yc2EAAAADAQABAAABAQC7zq8S1V/BYFIgE3WAoo6cicSuw79LHDUnmVVnytwk+JQ5P5sZSY8BFU+FPh76iXbhm4Ys7bafUvhRtNcb/aEBkcJiHafhFEuDz0DdiCokzZzZ6fwhZDZFG/IMkq8cwOiS4LFIEn5GRQWXrhPx0yHVMQnfZUXL+WLbgkeIABkohs4uQV6d9COOAt4RhHJL+95w44gCxxJOsC/Kc1oTNbtTq6BUPBXQmLETdkHtY8d7L8KiBo+bczuZIk/iJGcUW4+9ZHFeBs29fFx3vSSuRHjfdpc5y6cTva0djqV3WaQS/R2eRO7JGrQqnioMLHDZUG+yvAkuZnXuEMLAytZSbsNd'
+
+class ssh_node1 {
+
+   ssh_authorized_key { 'tony@stapp01':
+
+     ensure => present,
+
+    user   => 'tony',
+
+     type   => 'ssh-rsa',
+
+     key    => $public_key,
+
+   }
+
+ }
+
+ class ssh_node2 {
+
+   ssh_authorized_key { 'steve@stapp02':
+
+     ensure => present,
+
+     user   => 'steve',
+
+     type   => 'ssh-rsa',
+
+     key    => $public_key,
+
+   }
+
+ }
+
+ class ssh_node3 {
+
+   ssh_authorized_key { 'banner@stapp03':
+
+     ensure => present,
+
+     user   => 'banner',
+
+     type   => 'ssh-rsa',
+
+     key    => $public_key,
+
+   }
+
+ }
+
+ node stapp01.stratos.xfusioncorp.com {
+
+   include ssh_node1
+
+ }
+
+ node stapp02.stratos.xfusioncorp.com {
+
+   include ssh_node2
+
+ }
+
+ node stapp03.stratos.xfusioncorp.com {
+
+   include ssh_node3
+
+ }
+---------
+puppet parser validate games.pp
+now login to stapp01 with sudo--> ssh tony@stapp01
+puppet agent -tv
+
+logout & try to  run--> ssh tony@stapp01
