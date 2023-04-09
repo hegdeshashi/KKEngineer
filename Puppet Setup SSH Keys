@@ -18,11 +18,11 @@ Notes: :- Before clicking on the Check button please make sure to verify puppet 
 :- Please note that once lab is loaded, the puppet server service should start automatically on puppet master server, however it can take upto 2-3 minutes to start.
 ----------------
 Solution:
-log into jump host using sudo
+log into jump host using sudo .. generate new ssh key using ssh-keygen
 cd /etc/puppetlabs/code/environments/production/manifests
 cat games.pp-->
 
-$public_key =  'AAAAB3NzaC1yc2EAAAADAQABAAABAQCWodinQxF+eC8hJYkX/PHVHJ3a2yZzba9DZPTlJ82joreV054N/I8/1K/NxE7kFEcwioAQYauHdFXtwVmnrFLnRf/YQH34Clq0JY65umcnWWP3VfmOQVgEXwAHRSs3PsASOFeipWF1kyifOwPECY75oT9welqVd4AZQYgxqFw+P1xYeHraE/aSNV1qYAWGzGmMe1dVbtPq29M4KpU78gR2GWiDP5xPOaPjxHqJwu98l3qhjEzQ+W4gLhVP3nKRF0CMJFpnHqxHfe1BYB7Pn5m7+7w7EmoLADsITkHqNnXLIhHArDd+FesJzWcF5HK9rz5SAz541Okhp0DqM/wKaIzn'
+$public_key =  'AAAAB3NzaC1yc2EAAAADAQABAAACAQD4ojIzeI39LBbFvFuyEUw0UX84dT0iTpn3OuQnTCWIZhCwpxC0TLz7GadBNwi4bwTRYl+EIoXiGeyElHZVLwrLM51F2Pc5svTbDxY1KoSqp1m3UneZpU6rzMQ/eCmDjs1McaFH8JrdFkpI9xgxKSR15M3h3VnZ+0UsuSDkhK8Atn7Wh9ICIbf7et0qX0Gxc0ec4KflfwbrNDnYtJnZZXkwjNjRV+hsiTSHJ1oEfMoz6Yi/f8eRf7abKjHMkPINrJVl0U7Q2MMVtARvKXgcq/pf3bdVuNwfWORVda/CbaTafo+AKeX6hecru3T3IIOHwlXKcp9ZGufzX2Al7JFsKlXlTPwYrIX8vU3eRFKdMddYH9pJYM6IlU87zbKo9ih78SuWwHeNGjC6GJdZ8SsJ1qwnSuhXHsNGejE2wVdbMkbkc5uqUUWkwXjOtkEs71XO6N4Tl+3Wlry3+I87Zs9Rgxb7CMDOATMzkGUUHNwjj3ZP6z3Fl+tm86C7nc9junErRDILmadbpq3zr+qOvBmKmMYrvPnTjBqxzEkrckZDw0QKNjGQ6qCFNpmHBkYtbyILqG0rQagSGJgJAXCcSfasZqAqdrZOyWFjjjMQZMkF3xHHMqNr3xycEaFRYlBUawLjZVXqhHcuqydSn29P5Fro/p4VlDtxyDHbcrDppxbAWq0AGQ=='
 
 class ssh_node1 {
 
