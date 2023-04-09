@@ -18,7 +18,7 @@ Notes: :- Before clicking on the Check button please make sure to verify puppet 
 :- Please note that once lab is loaded, the puppet server service should start automatically on puppet master server, however it can take upto 2-3 minutes to start.
 ----------------
 Solution:
-log into jump host using sudo .. generate new ssh key using ssh-keygen
+log into jump host using sudo .. generate new ssh key using ssh-keygen -->ssh-keygen -t rsa -b 4096 -C "thor@jump_host" 
 cd /etc/puppetlabs/code/environments/production/manifests
 cat games.pp-->
 
