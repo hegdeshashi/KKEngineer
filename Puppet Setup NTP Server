@@ -71,3 +71,5 @@ puppet agent -tv
 puppet resource service ntpd
 ----
 now do the same for stapp02 & stapp03
+
+check & confirm
