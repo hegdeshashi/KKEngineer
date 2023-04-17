@@ -64,14 +64,12 @@ cat playbook.yml
 
          block: |
 
-           Welcome to XfusionCorp!
+           Welcome to xFusionCorp Industries!
 
            This is Nautilus sample file, created using Ansible!
-
-           Please do not modify this file manually!
 
          owner: apache
 
          group: apache
 
-         mode: "0644"
+         mode: "0755"
