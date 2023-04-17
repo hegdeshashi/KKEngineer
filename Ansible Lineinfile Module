@@ -76,3 +76,4 @@ cat playbook.yml
 
 ----------
 ansible-playbook -i inventory playbook.yml
+ansible all -a 'ls -l /var/www/html/' -i inventory
