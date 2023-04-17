@@ -73,3 +73,6 @@ cat playbook.yml
          group: apache
 
          mode: "0755"
+
+----------
+ansible-playbook -i inventory playbook.yml
