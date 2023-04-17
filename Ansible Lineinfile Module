@@ -26,3 +26,5 @@ The /var/www/html/index.html file's permissions should be 0755 on all app server
 
 Note: Validation will try to run the playbook using command ansible-playbook -i inventory playbook.yml so please make sure the playbook works this way without passing any extra arguments.
 ==============
+Solution:
+
