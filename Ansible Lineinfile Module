@@ -28,3 +28,4 @@ Note: Validation will try to run the playbook using command ansible-playbook -i 
 ==============
 Solution:
 
+cat playbook.yml
