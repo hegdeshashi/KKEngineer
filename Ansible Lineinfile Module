@@ -79,3 +79,4 @@ ansible-playbook -i inventory playbook.yml
 ansible all -a 'ls -l /var/www/html/' -i inventory
 curl http://stapp01
 curl http://stapp02
+curl http://stapp03
