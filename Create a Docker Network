@@ -3,7 +3,7 @@ The things always happens that you really believe in; and the belief in a thing 
 – Frank Lloyd Wright
 The Nautilus DevOps team needs to set up several docker environments for different applications. One of the team members has been assigned a ticket where he has been asked to create some docker networks to be used later. Complete the task based on the following ticket description:
 
-========
+========--
 
 a. Create a docker network named as news on App Server 3 in Stratos DC.
 
