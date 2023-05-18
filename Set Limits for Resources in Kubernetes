@@ -2,7 +2,7 @@ Set Limits for Resources in Kubernetes:
 
 Great things never came from comfort zones.
 
-–----- Tony Luziaya
+–------ Tony Luziaya
 Recently some of the performance issues were observed with some applications hosted on Kubernetes cluster. The Nautilus DevOps team has observed some resources constraints, where some of the applications are running out of resources like memory, cpu etc., and some of the applications are consuming more resources than needed. Therefore, the team has decided to add some limits for resources utilization. Below you can find more details.
 
 
