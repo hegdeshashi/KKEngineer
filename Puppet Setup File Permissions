@@ -3,7 +3,7 @@ Puppet Setup File Permissions:
 Success doesn’t come to you, you go to it.
 
 – Marva Collins
-======================
+=====================
 The Nautilus DevOps team has put some data on all app servers in Stratos DC. jump host is configured as Puppet master server, and all app servers are already been configured as Puppet agent nodes. The team needs to update the content of some of the exiting files, as well as need to update their permissions etc. Please find below more details about the task:
 
 
