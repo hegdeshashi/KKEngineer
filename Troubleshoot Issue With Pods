@@ -22,6 +22,6 @@ kubectl describe pod webserver ---> image is having issue.
 kubectl edit pod webserver ---> change image from nginx :latests to nginx:latest
 kubectl get pods
 
---< make sure pod is running state..
+--< --make sure pod is running state..
 
 verify & solve it.
