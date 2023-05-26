@@ -17,7 +17,7 @@ Look into the issue and fix it, make sure pod is in running state and you are ab
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
 ====================
 Solution:
-kubectl get pods -A - --> pod is not running state.. need to verify what went wrong
+kubectl get pods -A -- --> pod is not running state.. need to verify what went wrong
 kubectl describe pod webserver ---> image is having issue.
 kubectl edit pod webserver ---> change image from nginx :latests to nginx:latest
 kubectl get pods
