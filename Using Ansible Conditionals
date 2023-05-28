@@ -23,7 +23,7 @@ NOTE: You can use ansible_nodename variable from gathered facts with when condit
 
 Note: Validation will try to run the playbook using command ansible-playbook -i inventory playbook.yml, so please make sure the playbook works this way without passing any extra arguments.
 =================
-Solution:
+Solution::
 
   pwd
     2  ls -latr
