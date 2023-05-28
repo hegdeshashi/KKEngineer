@@ -26,7 +26,7 @@ Note: Validation will try to run the playbook using command ansible-playbook -i 
 Solution:
 
   pwd
-    2  ls -
+    2  ls -l
     3  cd ansible/
     4  ls
     5  ansible all -a "ls -ltr /opt/security" -i inventory 
