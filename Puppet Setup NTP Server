@@ -7,7 +7,7 @@ Real difficulties can be overcome; it is only the imaginary ones that are unconq
 Problem Statement:
 While troubleshooting one of the issues on app servers in Stratos Datacenter DevOps team identified the root cause that the time isn't synchronized properly among the all app servers which causes issues sometimes. So team has decided to use a specific time server for all app servers, so that they all remain in sync. This task needs to be done using Puppet so as per details mentioned below please compete the task:
 
-=====
+=======
 
 Create a puppet programming file news.pp under /etc/puppetlabs/code/environments/production/manifests directory on puppet master node i.e on Jump Server. Within the programming file define a custom class ntpconfig to install and configure ntp server on app server 2.
 
