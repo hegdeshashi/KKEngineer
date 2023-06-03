@@ -3,7 +3,7 @@ Puppet Setup SSH Keys
 There is no elevator to success, you have to take the stairs.
 
 – Zig Ziglar
-============
+==============
 Problem description::
 The Puppet master and Puppet agent nodes have been set up by the Nautilus DevOps team to perform some testing. In Stratos DC all app servers have been configured as Puppet agent nodes. They want to setup a password less SSH connection between Puppet master and Puppet agent nodes and this task needs to be done using Puppet itself. Below are details about the task:
 
