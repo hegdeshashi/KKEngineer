@@ -4,7 +4,7 @@ The Nautilus DevOps team is working on to create few jobs in Kubernetes cluster.
 
 
 
-Create a job countdown-nautilus.-----------
+Create a job countdown-nautilus.------------
 
 The spec template should be named as countdown-nautilus (under metadata), and the container should be named as container-countdown-nautilus
 
