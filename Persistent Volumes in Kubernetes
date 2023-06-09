@@ -12,3 +12,48 @@ Create a pod named as pod-datacenter, mount the persistent volume you created wi
 Create a node port type service named web-datacenter using node port 30008 to expose the web server running within the pod.
 
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
+
+SOlution:
+
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-datacenter
+spec:
+  capacity:
+    storage: 3Gi
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: manual
+  hostPath:
+    path: /mnt/itadmin
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pvc-datacenter
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: manual
+  resources:
+    requests:
+      storage: 2Gi
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-datacenter
+spec:
+  volumes:
+    - name: storage-nautilus
+      persistentVolumeClaim:
+        claimName: pvc-datacenter
+  containers:
+    - name: container-datacenter
+      image: httpd:latest
+      ports:
+        - containerPort: 30008
+
+
