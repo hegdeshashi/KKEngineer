@@ -23,6 +23,7 @@ Notes: :- Please make sure to run the puppet agent test using sudo on agent node
 ===========
 Solution:
 puppet module list
+puppet module install puppetlabs-ntp
 
 cd /etc/puppetlabs/code/environments/production/manifests
 cat news.pp-->
