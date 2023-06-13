@@ -69,7 +69,7 @@ node 'stapp03.stratos.xfusioncorp.com' {
 =============
 login to stapp01 with sudo -->ssh tony@stapp01
 
-puppet respurce service ntpd
+puppet resource service ntpd
 puppet agent -tv
 puppet resource service ntpd
 ----
