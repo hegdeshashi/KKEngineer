@@ -22,6 +22,7 @@ Notes: :- Please make sure to run the puppet agent test using sudo on agent node
 :- Please note that once lab is loaded, the puppet server service should start automatically on puppet master server, however it can take upto 2-3 minutes to start.
 ===========
 Solution:
+puppet module list
 
 cd /etc/puppetlabs/code/environments/production/manifests
 cat news.pp-->
