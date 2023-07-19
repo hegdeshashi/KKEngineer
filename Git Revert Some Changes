@@ -13,7 +13,7 @@ In /usr/src/kodekloudrepos/games git repository, revert the latest commit ( HEAD
 Use revert games message (please use all small letters for commit message) for the new revert commit.
 ---------------------
 SOlution:
-------------------
+--------------------
 login to storage server with sudo :
 ssh natasha@ststor01 --
 
