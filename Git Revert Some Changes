@@ -11,7 +11,7 @@ The Nautilus application development team was working on a git repository /usr/s
 In /usr/src/kodekloudrepos/games git repository, revert the latest commit ( HEAD ) to the previous commit (JFYI the previous commit hash should be with initial commit message ).
 
 Use revert games message (please use all small letters for commit message) for the new revert commit.
----------------
+----------------
 SOlution:
 ------------------
 login to storage server with sudo :
