@@ -4,7 +4,7 @@ Puppet Setup Database:
 Keep your face always toward the sunshine, and shadows will fall behind you.
 
 – Walt Whitman
-=========================
+===========================
 The Nautilus DevOps team had a meeting with development team last week to discuss about some new requirements for an application deployment. Team is working on to setup a mariadb database server on Nautilus DB Server in Stratos Datacenter. They want to setup the same using Puppet. Below you can find more details about the requirements:
 
 
