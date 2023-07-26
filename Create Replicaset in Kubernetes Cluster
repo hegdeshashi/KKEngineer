@@ -15,7 +15,7 @@ Note: The kubectl utility on jump_host has been configured to work with the kube
 
 
 CheckCompleteIncomplete Try Later:
-==================
+===================
 
 kubectl get all
 
