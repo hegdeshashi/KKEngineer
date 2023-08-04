@@ -25,4 +25,4 @@ kubectl get pods
 --< --make sure pod is running state..
 
 verify & solve it.
-op
+opp
