@@ -8,7 +8,7 @@ Nautilus project developers are planning to start testing on a new project. As p
 
 a. Pull busybox:musl image on App Server 2 in Stratos DC and re-tag (create new tag) this image as busybox:local.
 
-Now login to stapp02 server with sudo:
+Nowlogin to stapp02 server with sudo:
  docker images
     2  docker pull busybox:musl
     3  docker image tag busybox:musl busybox:local
