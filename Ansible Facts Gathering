@@ -18,7 +18,6 @@ Note: Do not create a separate role for this task, just add all of the changes i
 =======
 Solution::
 
-
 cat index.yml-->
 ---
 
