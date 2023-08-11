@@ -17,6 +17,7 @@ Install httpd server on all apps. After that make a copy of facts.txt file as in
 Note: Do not create a separate role for this task, just add all of the changes in index.yml playbook.
 =======
 Solution::=
+
 cat index.yml-->
 ---
 
