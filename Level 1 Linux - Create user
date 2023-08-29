@@ -20,4 +20,5 @@ login to stapp01
     5  cat /etc/passwd | grep ravi
     6  usermod -d /var/www/ravi -m ravi
     7  cat /etc/passwd | grep ravi
-    8  history
+    8  submit now
+
