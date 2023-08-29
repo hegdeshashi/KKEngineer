@@ -1,1 +1,23 @@
 Level 1 Linux create user:
+For security reasons the xFusionCorp Industries security team has decided to use custom Apache users for each web application hosted, rather than its default user. This will be the Apache user, so it shouldn't use the default home directory. Create the user as per requirements given below:
+
+
+
+a. Create a user named ravi on the App server 1 in Stratos Datacenter.
+
+
+b. Set its UID to 1535 and home directory to /var/www/ravi.
+
+CheckCompleteIncomplete
+======
+login to stapp01
+
+
+    1  id ravi
+    2  cat /etc/passwd | grep ravi
+    3  useradd -u 1535 ravi
+    4  id ravi
+    5  cat /etc/passwd | grep ravi
+    6  usermod -d /var/www/ravi -m ravi
+    7  cat /etc/passwd | grep ravi
+    8  history
