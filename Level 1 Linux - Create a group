@@ -10,4 +10,12 @@ a. Create a group named nautilus_developers in all App servers in Stratos Datace
 b. Add the user sonya to nautilus_developers group in all App servers. (create the user if doesn't exist).
 
 ------------
+login to stapp 01 :
 
+
+1  groupadd nautilus_developers
+    2  id sonya
+    3  cat /etc/passwd | grep sonya
+    4  useradd -G nautilus_developers sonya
+    5  id sonya
+    6  cat /etc/passwd | grep sonya
