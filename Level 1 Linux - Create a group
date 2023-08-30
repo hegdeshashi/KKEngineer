@@ -8,3 +8,6 @@ a. Create a group named nautilus_developers in all App servers in Stratos Datace
 
 
 b. Add the user sonya to nautilus_developers group in all App servers. (create the user if doesn't exist).
+
+------------
+
