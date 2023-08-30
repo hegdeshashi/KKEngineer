@@ -19,3 +19,5 @@ ssh steve@stapp01:
     4  useradd -G nautilus_developers sonya
     5  id sonya
     6  cat /etc/passwd | grep sonya
+
+now login to stapp02 & stapp03 and perform the same steps.
