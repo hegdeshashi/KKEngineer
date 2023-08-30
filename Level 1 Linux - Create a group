@@ -12,7 +12,7 @@ b. Add the user sonya to nautilus_developers group in all App servers. (create t
 ------------
 login to stapp 01 :
 
-
+ssh steve@stapp01:
 1  groupadd nautilus_developers
     2  id sonya
     3  cat /etc/passwd | grep sonya
