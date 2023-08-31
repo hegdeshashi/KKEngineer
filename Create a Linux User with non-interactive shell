@@ -9,3 +9,4 @@ ssh steve@stapp01
 useradd -s /sbin/nologin yousuf
 
 now submit
+user = yousuf created succesfully.
