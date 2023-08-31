@@ -6,3 +6,4 @@ Therefore, create a user named yousuf with a non-interactive shell on the App Se
 ===========
 login to stapp01
 ssh steve@stapp01
+useradd -s /sbin/nologin yousuf
