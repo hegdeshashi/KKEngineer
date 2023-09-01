@@ -20,3 +20,4 @@ ssh tony@stapp01
    cat /etc/passwd | grep kirsty
    
   ls -lart /home
+make sure kirtsy not created in this home directory
