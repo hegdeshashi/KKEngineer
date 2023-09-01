@@ -11,6 +11,7 @@ Create a user named kirsty in App Server 1 without a home directory.
 =============
 login to stapp01
 
+ssh tony@stapp01
 
   id kirsty
    cat /etc/passwd | grep kirsty
