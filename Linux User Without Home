@@ -18,5 +18,5 @@ ssh tony@stapp01
    useradd -M kirsty
    id kirsty
    cat /etc/passwd | grep kirsty
-   ll /home
+   
   ls -lart /home
