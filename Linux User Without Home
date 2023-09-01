@@ -12,10 +12,10 @@ Create a user named kirsty in App Server 1 without a home directory.
 login to stapp01
 
 
-  1  id kirsty
-    2  cat /etc/passwd | grep kirsty
-    3  useradd -M kirsty
-    4  id kirsty
-    5  cat /etc/passwd | grep kirsty
-    6  ll /home
-    7  ls -lart /home
+  id kirsty
+   cat /etc/passwd | grep kirsty
+   useradd -M kirsty
+   id kirsty
+   cat /etc/passwd | grep kirsty
+   ll /home
+  ls -lart /home
