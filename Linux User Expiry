@@ -5,3 +5,10 @@ A developer named james has been assigned Nautilus project temporarily as a back
 
 Therefore, create a user named james on the App Server 2 in Stratos Datacenter. Set expiry date to 2021-01-28. Make sure the user is created as per standard and is in lowercase.:
 ==============
+
+
+  adduser james
+    2  change -E 2021-01-28 james
+    3  sudo change -E 2021-01-28 james
+    4  chage -E 2021-01-28 james
+    5  chage -l james
