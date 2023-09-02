@@ -10,5 +10,5 @@ login to stapp02:
 ssh steve@stapp02
   adduser james
  
-     4  chage -E 2021-01-28 james
-    5  chage -l james
+ chage -E 2021-01-28 james
+ chage -l james
