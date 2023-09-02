@@ -7,6 +7,7 @@ Therefore, create a user named james on the App Server 2 in Stratos Datacenter. 
 ==============
 login to stapp02:
 
+ssh steve@stapp02
   adduser james
     2  change -E 2021-01-28 james
     3  sudo change -E 2021-01-28 james
