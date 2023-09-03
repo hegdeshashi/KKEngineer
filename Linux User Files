@@ -12,3 +12,6 @@ login to stapp03
 ssh banner@stapp03
 
 find /home/usersdata/. -type f -user anita -exec cp --parents {} /official \;
+
+now check all data copied to /official or not..
+ll /official/home/usersdata
