@@ -11,4 +11,4 @@ On App Server 3 find all files (not directories) owned by user anita inside /hom
 login to stapp03
 ssh banner@stapp03
 
-find /home/usersdata/. -type f -user anita -exec cp --parents {} /news \;
+find /home/usersdata/. -type f -user anita -exec cp --parents {} /official \;
