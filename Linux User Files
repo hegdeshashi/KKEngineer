@@ -15,3 +15,5 @@ find /home/usersdata/. -type f -user anita -exec cp --parents {} /official \;
 
 now check all data copied to /official or not..
 ll /official/home/usersdata
+
+now submit
