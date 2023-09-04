@@ -4,3 +4,7 @@ In learning you will teach, and in teaching you will learn.
 
 – Phil Collins
 =============
+
+
+
+sudo vi /etc/ssh/sshd_config
