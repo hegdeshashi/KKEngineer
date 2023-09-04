@@ -8,3 +8,4 @@ In learning you will teach, and in teaching you will learn.
 
 
 sudo vi /etc/ssh/sshd_config
+sudo systemctl restart sshd
