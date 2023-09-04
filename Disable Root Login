@@ -11,6 +11,7 @@ After doing some security audits of servers, xFusionCorp Industries security tea
 
 Disable direct SSH root login on all app servers in Stratos Datacenter.
 
+Login to stapp01
 
 sudo vi /etc/ssh/sshd_config
 sudo systemctl restart sshd
