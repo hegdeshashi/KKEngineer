@@ -22,3 +22,5 @@ tar -cvzf john.tar.gz /data/john
 ls -lart
  mv john.tar.gz /home
  ls -lart /home
+
+now submit
