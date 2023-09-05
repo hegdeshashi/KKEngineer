@@ -11,3 +11,10 @@ On Nautilus storage server in Stratos DC, there is a storage location named /dat
 a. Make a john.tar.gz compressed archive of /data/john directory and move the archive to /home directory on Storage Server.
 ========
 ANswer:
+
+  1  ll /data
+    2  ls -lart /data
+    3  tar -cvzf john.tar.gz /data/john
+    4  ls -lart
+    5  mv john.tar.gz /home
+    6  ls -lart /home
