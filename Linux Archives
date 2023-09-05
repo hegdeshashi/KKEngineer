@@ -13,6 +13,9 @@ a. Make a john.tar.gz compressed archive of /data/john directory and move the ar
 ANswer:
 
 login to ststor01
+natasha@ststor01
+
+sudo su -
   1  ll /data
     2  ls -lart /data
     3  tar -cvzf john.tar.gz /data/john
