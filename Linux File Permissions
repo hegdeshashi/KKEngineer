@@ -18,3 +18,4 @@ chmod o+rx /tmp/xfusioncorp.sh
 ls -lart /tmp/xfusioncorp.sh 
 cat /tmp/xfusioncorp.sh 
 sh /tmp/xfusioncorp.sh 
+now output we got & executed successfully
