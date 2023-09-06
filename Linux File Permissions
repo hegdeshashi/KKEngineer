@@ -8,3 +8,9 @@ There are new requirements to automate a backup process that was performed manua
 
 
 Please give executable permissions to /tmp/xfusioncorp.sh script on App Server 2. Also make sure every user can execute it.
+===========
+ ls -lart /tmp/xfusioncorp.sh 
+    2  chmod o+rx /tmp/xfusioncorp.sh 
+    3  ls -lart /tmp/xfusioncorp.sh 
+    4  cat /tmp/xfusioncorp.sh 
+    5  sh /tmp/xfusioncorp.sh 
