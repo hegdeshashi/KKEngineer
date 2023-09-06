@@ -14,7 +14,7 @@ ssh steve@stapp02
 sudo su -
 
  ls -lart /tmp/xfusioncorp.sh 
-    2  chmod o+rx /tmp/xfusioncorp.sh 
-    3  ls -lart /tmp/xfusioncorp.sh 
-    4  cat /tmp/xfusioncorp.sh 
-    5  sh /tmp/xfusioncorp.sh 
+chmod o+rx /tmp/xfusioncorp.sh 
+ls -lart /tmp/xfusioncorp.sh 
+cat /tmp/xfusioncorp.sh 
+sh /tmp/xfusioncorp.sh 
