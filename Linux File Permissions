@@ -11,6 +11,7 @@ Please give executable permissions to /tmp/xfusioncorp.sh script on App Server 2
 ===========
 login to stapp02
 ssh steve@stapp02
+sudo su -
 
  ls -lart /tmp/xfusioncorp.sh 
     2  chmod o+rx /tmp/xfusioncorp.sh 
