@@ -13,6 +13,7 @@ The Nautilus security team performed an audit on all servers present in Stratos 
 4. User garrett should have read only permission on the file.
 ==============
 login to stapp03
+ssh banner@stapp03
     getfacl /etc/hostname
     id javed
     id garrett
