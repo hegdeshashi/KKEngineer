@@ -21,3 +21,5 @@ sudo su -
     id garrett
     setfacl -m u:javed:-,garrett:r /etc/hostname
     getfacl /etc/hostname
+
+now makesure all user have correct ACL permission set
