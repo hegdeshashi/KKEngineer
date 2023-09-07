@@ -12,6 +12,7 @@ The Nautilus security team performed an audit on all servers present in Stratos 
 
 4. User garrett should have read only permission on the file.
 ==============
+answer: step by step guide:
 login to stapp03
 ssh banner@stapp03
 login as sudo
