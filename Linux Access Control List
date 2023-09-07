@@ -23,3 +23,5 @@ sudo su -
     getfacl /etc/hostname
 
 now makesure all user have correct ACL permission set
+------------
+criteria:
