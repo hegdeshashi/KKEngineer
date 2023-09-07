@@ -15,6 +15,7 @@ The Nautilus security team performed an audit on all servers present in Stratos 
 login to stapp03
 ssh banner@stapp03
 login as sudo
+sudo su -
     getfacl /etc/hostname
     id javed
     id garrett
