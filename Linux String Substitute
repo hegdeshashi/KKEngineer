@@ -15,3 +15,4 @@ login to stbkp01
 ssh clint@stbkp01
 sudo su -
  cat /root/nautilus.xml  |grep Text  | wc -l
+cat /root/nautilus.xml  |grep About
