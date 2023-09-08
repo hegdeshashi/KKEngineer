@@ -17,3 +17,4 @@ sudo su -
  cat /root/nautilus.xml  |grep Text  | wc -l
 cat /root/nautilus.xml  |grep Text
 sed -i 's/Text/Cloud/g' /root/nautilus.xml
+cat /root/nautilus.xml  |grep Text
