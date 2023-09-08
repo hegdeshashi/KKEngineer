@@ -22,3 +22,4 @@ cat /root/nautilus.xml  |grep Cloud
 cat /root/nautilus.xml  |grep Text  | wc -l
 cat /root/nautilus.xml  |grep Cloud  | wc -l
 now check & confirm
+close the task
