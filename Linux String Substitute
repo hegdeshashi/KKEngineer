@@ -19,3 +19,4 @@ cat /root/nautilus.xml  |grep Text
 sed -i 's/Text/Cloud/g' /root/nautilus.xml
 cat /root/nautilus.xml  |grep Text
 cat /root/nautilus.xml  |grep Cloud
+cat /root/nautilus.xml  |grep Text  | wc -l
