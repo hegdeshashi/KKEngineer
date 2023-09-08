@@ -11,3 +11,4 @@ The backup server in the Stratos DC contains several template XML files used by 
 
 Replace all occurances of the string Text to Cloud on the XML file /root/nautilus.xml located in the backup server.
 ============
+login to stbkp01
