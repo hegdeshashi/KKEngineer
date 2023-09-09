@@ -12,3 +12,4 @@ Copy /tmp/nautilus.txt.gpg file from jump server to App Server 1 at location /ho
 ===========
 scp /tmp/nautilus.txt.gpg tony@stapp01:/home/nfsshare/
 ssh tony@stapp01
+sudo su
