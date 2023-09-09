@@ -14,3 +14,5 @@ scp /tmp/nautilus.txt.gpg tony@stapp01:/home/nfsshare/
 ssh tony@stapp01
 sudo su
 ls -lart /home/nfsshare
+
+now confirm that file = nautilus.txt.gpg exists in this dir.
