@@ -16,3 +16,4 @@ sudo su
 ls -lart /home/nfsshare
 
 now confirm that file = nautilus.txt.gpg exists in this dir.
+now submit
