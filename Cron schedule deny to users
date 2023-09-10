@@ -18,3 +18,4 @@ vi /etc/cron.allow
 add ammar  
 systemctl restart crond.service
   systemctl status crond.service
+now submit
