@@ -9,6 +9,8 @@ To stick with the security compliances, the Nautilus project team has decided to
 
 Allow crontab access to ammar user and deny the same to eric user.
 ===========
+login to stapp03
+
  vi /etc/cron.deny
    21  vi /etc/cron.allow
    22  systemctl restart crond.service
