@@ -18,4 +18,4 @@ Step by step guide:
     4  systemctl set-default graphical.target       --SET DEFAULT TO GET AFTER BOOT WE NEED THIS COMMAND
     5  sudo systemctl get-default
 ==========
-now submit 
+now submit and close the task.
