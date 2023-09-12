@@ -14,6 +14,7 @@ Correct the mismatch.
 step by step guide answer:
 login to stapp01:
 ssh tony@stapp01
+sudo su
  timedatectl
     2  timedatectl -h
     3  timedatectl set-timezone Pacific/Gambier
