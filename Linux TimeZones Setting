@@ -20,4 +20,4 @@ timedatectl set-timezone Pacific/Gambier
 timedatectl
 now make sure time zone got updated as per question.
 now login to stapp02 & stapp03 and perform above steps.
-submit & 
+submit & close the task.
