@@ -11,3 +11,7 @@ During the daily standup, it was pointed out that the timezone across Nautilus A
 
 Correct the mismatch.
 =============
+ timedatectl
+    2  timedatectl -h
+    3  timedatectl set-timezone Pacific/Gambier
+    4  timedatectl
