@@ -30,3 +30,4 @@ sudo su
    10  systemctl status ntpd
    11  ntpstat
 submit the task
+close it.
