@@ -14,3 +14,4 @@ The system admin team of xFusionCorp Industries has noticed an issue with some s
 
 3. Please do not try to start/restart/stop ntp service, as we already have a restart for this service scheduled for tonight and we don't want these changes to be applied right now.
 =============
+stpe by step guide:
