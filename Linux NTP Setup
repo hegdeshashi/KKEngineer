@@ -17,3 +17,5 @@ The system admin team of xFusionCorp Industries has noticed an issue with some s
 step by step guide:
 login to stapp03
 ssh banner@stapp03
+sudo su
+
