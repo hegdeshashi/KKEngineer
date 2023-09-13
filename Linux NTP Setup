@@ -18,4 +18,15 @@ step by step guide:
 login to stapp03
 ssh banner@stapp03
 sudo su
-
+ rpm -qa | grep ntp
+    2  yum install -y ntp
+    3  rpm -qa | grep ntp
+    4  vi /etc/ntp.conf
+    5  cat /etc/ntp.conf | grep america.pool
+    6  ntpstat
+    7  systemctl status ntpd
+    8  systemctl enable ntpd
+    9  systemctl start ntpd
+   10  systemctl status ntpd
+   11  ntpstat
+submit the task
