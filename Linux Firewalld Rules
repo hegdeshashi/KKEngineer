@@ -12,3 +12,11 @@ The Nautilus system admins team recently deployed a web UI application for their
 Open all incoming connection on 6000/tcp port. Zone should be public.
 ===========
 step by step answer:
+  sudo firewall-cmd --permanent --zone=public --add-port=6000/tcp
+    2  sudo firewall-cmd --reload
+    3  sudo systemctl restart firewall
+    4  sudo firewall-cmd --zone=public --list=all
+    5  sudo firewall-cmd --zone=public --list-all
+    6  sudo systemctl status firewalld
+    7  sudo systemctl restart firewalld
+    8  sudo systemctl status firewalld
