@@ -20,3 +20,4 @@ step by step answer:
     6  sudo systemctl status firewalld
     7  sudo systemctl restart firewalld
     8  sudo systemctl status firewalld
+============
