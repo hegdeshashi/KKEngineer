@@ -18,6 +18,7 @@ Step by step guide:
 
 login to stratos datacenter with sudo
 ssh natasha@ststor01
+sudo su
 
 
 vi /etc/security/limits.conf
