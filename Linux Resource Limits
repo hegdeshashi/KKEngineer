@@ -25,3 +25,5 @@ vi /etc/security/limits.conf
 	nfsuser hard nproc 2024
 ----> save & close
 cat /etc/security/limits.conf | grep nproc | grep -v ^
+verify the output as ---> nfsuser soft nproc 1025
+					nfsuser hard nproc 2024
