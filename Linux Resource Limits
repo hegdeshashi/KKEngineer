@@ -17,7 +17,7 @@ b. hard_limit = 2024
 Step by step guide:
 
 login to stratos datacenter with sudo
-
+ssh natasha@ststor01
 
 
 vi /etc/security/limits.conf
