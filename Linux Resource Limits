@@ -15,3 +15,10 @@ a. soft limit = 1025
 b. hard_limit = 2024
 ============
 Step by step guide:
+
+login to stratos datacenter with sudo
+
+
+
+vi /etc/security/limits.conf
+cat /etc/security/limits.conf | grep nproc | grep -v ^
