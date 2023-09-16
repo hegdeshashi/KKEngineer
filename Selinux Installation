@@ -13,3 +13,4 @@ Install the required packages of SElinux on App server 2 in Stratos Datacenter a
 =========
 step by step guide:
 login to stapp02
+ssh steve@stapp02
