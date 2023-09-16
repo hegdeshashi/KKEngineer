@@ -26,3 +26,4 @@ SELINUXTYPE=targeted
  vi /etc/selinux/config --> make it to disabled from enforcing..
 
 now check & confirm
+submit the task
