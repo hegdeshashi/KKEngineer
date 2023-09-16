@@ -17,3 +17,9 @@ ssh steve@stapp02
 sudo su
  yum -y install selinux*
 sestatus--> disabled
+cat /etc/selinux/config | grep SELINUX ---> 
+	# SELINUX= can take one of these three values:
+SELINUX=enforcing
+# SELINUXTYPE= can take one of these three values:
+SELINUXTYPE=targeted
+
