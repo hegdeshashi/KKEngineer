@@ -23,3 +23,4 @@ SELINUX=enforcing
 # SELINUXTYPE= can take one of these three values:
 SELINUXTYPE=targeted
 
+ vi /etc/selinux/config --> make it to disabled from enforcing..
