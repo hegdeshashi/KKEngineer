@@ -15,3 +15,4 @@ step by step guide:
 login to stapp02
 ssh steve@stapp02
 sudo su
+ yum -y install selinux*
