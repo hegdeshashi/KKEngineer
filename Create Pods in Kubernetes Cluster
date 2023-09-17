@@ -42,3 +42,4 @@ spec:
       image: httpd:latest
 ---------------
 k apply -f httpd.yaml
+k get pods
