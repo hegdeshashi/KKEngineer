@@ -19,3 +19,25 @@ step by step answer:
 verify namespace and pods..
 k get ns
 k get pods
+vi httpd.yaml--->
+-----------
+apiVersion: v1
+
+kind: Pod
+
+metadata:
+
+    name: pod-httpd
+
+    labels:
+
+      app: httpd_app
+
+spec:
+
+    containers:
+
+    - name: httpd-container
+
+      image: httpd:latest
+---------------
