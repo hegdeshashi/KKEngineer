@@ -43,3 +43,6 @@ spec:
 ---------------
 k apply -f httpd.yaml
 k get pods
+
+------------------
+now check the task & submit
