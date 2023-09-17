@@ -15,3 +15,5 @@ Labels app should be set to httpd_app, also container should be named as httpd-c
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
 =====================================================================
 step by step answer:
+
+verify namespace and pods..
