@@ -16,3 +16,4 @@ kubectl get deploy
 kubectl get ns
 kubectl create deploy httpd --image=httpd:latest
 kubectl get deploy
+kubectl get pods
