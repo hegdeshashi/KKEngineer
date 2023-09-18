@@ -18,3 +18,4 @@ kubectl create deploy httpd --image=httpd:latest
 kubectl get deploy
 kubectl get pods
 kubectl describe pod pod-name | grep -i image
+--> makesure correct image name as per the problem statement..
