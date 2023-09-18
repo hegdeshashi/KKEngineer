@@ -21,3 +21,4 @@ kubectl describe pod pod-name | grep -i image
 --> makesure correct image name as per the problem statement..
 ======
 now submit the answer and close the task.
+=========================================
