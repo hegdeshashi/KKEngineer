@@ -11,3 +11,13 @@ The Nautilus DevOps team is planning to deploy some micro services on Kubernetes
 Create a namespace named dev and create a POD under it; name the pod dev-nginx-pod and use nginx image with latest tag only and remember to mention tag i.e nginx:latest.
 
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
+============
+Step by step answer:
+ kubectl get ns
+kubectl get pods
+kubectl create ns dev
+kubectl get ns
+kubectl run dev-nginx-pod --image=nginx:latest -n dev
+kubectl get pods -n dev
+---------------
+now submit answer & close the task.
