@@ -60,3 +60,4 @@ kubectl create -f /tmp/cron.yml
 kubectl get cronjobs
 ---> make sure cronjob created successfully
 ==============
+now submit & close the task.
