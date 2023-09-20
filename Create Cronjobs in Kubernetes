@@ -56,3 +56,5 @@ spec:
             - echo Welcome to xfusioncorp!
           restartPolicy: OnFailure
 ----------------
+kubectl create -f /tmp/cron.yml
+kubectl get cronjobs
