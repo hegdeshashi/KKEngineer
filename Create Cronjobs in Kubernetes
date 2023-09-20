@@ -31,3 +31,23 @@ Note: The kubectl utility on jump_host has been configured to work with the kube
 ===================
 Step by step answer : 
 --->
+
+
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: xfusion
+spec:
+  schedule: "*/10 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: cron-xfusion
+            image: nginx:latest
+            args:
+            - /bin/sh
+            - -c
+            - echo Welcome to xfusioncorp!
+          restartPolicy: OnFailure
