@@ -30,3 +30,4 @@ Step by step answer:
 ----> change replicas from 1 to 5 and also image from nginx:1.19 to nginx:latest
  kubectl get deploy
     ---> verify that replicas changed from 1 to 5
+kubectl get pods ---> 
