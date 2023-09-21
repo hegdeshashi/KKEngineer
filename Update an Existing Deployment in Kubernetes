@@ -24,3 +24,4 @@ Step by step answer:
     kubectl get svc
     kubectl edit svc nginx-service --->chnge port from 30008 to 32165
    kubectl get svc
+---> make sure port changed...
