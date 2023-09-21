@@ -19,3 +19,8 @@ We already have a deployment named nginx-deployment and service named nginx-serv
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
 ==================
 Step by step answer:
+ kubectl get pods
+    kubectl get deploy
+    kubectl get svc
+    kubectl edit svc nginx-service --->chnge port from 30008 to 32165
+   kubectl get svc
