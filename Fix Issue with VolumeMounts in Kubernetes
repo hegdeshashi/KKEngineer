@@ -19,12 +19,12 @@ Note: The kubectl utility on jump_host has been configured to work with the kube
 =========================
 step by step answer:
 kubectl get pods
-    2  kubectl get configmap
-    3  kubectl describe configmap nginx-config 
-    4  kubectl get pod nginx-phpfpm -o yaml > /tmp/nginx.yaml
-    5  vi /tmp/nginx.yaml  ----> Edit the nginx.yaml file and changed ‘/usr/share/nginx/html’ to ‘/var/www/html’ in 3 places.
-    6  kubectl replace --force -f /tmp/nginx.yaml 
-    7  kubectl get pods
-    8  ls -lart /home/thor/
-    9  kubectl cp  /home/thor/index.php  nginx-phpfpm:/var/www/html -c nginx-container
-   10  kubectl exec -it nginx-phpfpm -c nginx-container  -- curl -I  http://localhost:8099
+    kubectl get configmap
+    kubectl describe configmap nginx-config 
+    kubectl get pod nginx-phpfpm -o yaml > /tmp/nginx.yaml
+    vi /tmp/nginx.yaml  ----> Edit the nginx.yaml file and changed ‘/usr/share/nginx/html’ to ‘/var/www/html’ in 3 places.
+    kubectl replace --force -f /tmp/nginx.yaml 
+    kubectl get pods
+    ls -lart /home/thor/
+    kubectl cp  /home/thor/index.php  nginx-phpfpm:/var/www/html -c nginx-container
+   kubectl exec -it nginx-phpfpm -c nginx-container  -- curl -I  http://localhost:8099
