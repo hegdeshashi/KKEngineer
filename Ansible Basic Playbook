@@ -41,4 +41,6 @@ cat /home/thor/ansible/playbook.yml --->
         state: touch
 ---------
 cd ansible/
+ ansible all -a "ls -ltr /tmp/" -i inventory --> no file.txt created
+ansible-playbook -i inventory playbook.yml
  ansible all -a "ls -ltr /tmp/" -i inventory
