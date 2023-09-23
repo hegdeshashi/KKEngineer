@@ -21,3 +21,21 @@ Step by step answer:
 
 Update --in the file -->/home/thor/ansible/inventory
 stapp02 ansible_host=172.16.238.11 ansible_user=steve ansible_ssh_pass=Am3ric@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+
+cat /home/thor/ansible/playbook.yml --->
+- name: Create file in appserver
+
+  hosts: stapp02
+
+  become: yes
+
+  tasks:
+
+    - name: Create the file
+
+      file:
+
+        path: /tmp/file.txt
+
+
+        state: touch
