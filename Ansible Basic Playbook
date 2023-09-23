@@ -43,4 +43,4 @@ cat /home/thor/ansible/playbook.yml --->
 cd ansible/
  ansible all -a "ls -ltr /tmp/" -i inventory --> no file.txt created
 ansible-playbook -i inventory playbook.yml
- ansible all -a "ls -ltr /tmp/" -i inventory ---> file.txt created succesfuly
+ ansible all -a "ls -ltr /tmp/" -i inventory ---> file.txt created succesfully
