@@ -39,3 +39,6 @@ cat /home/thor/ansible/playbook.yml --->
 
 
         state: touch
+---------
+cd ansible/
+ ansible all -a "ls -ltr /tmp/" -i inventory
