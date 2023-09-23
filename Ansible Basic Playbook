@@ -17,3 +17,4 @@ Create a playbook /home/thor/ansible/playbook.yml and add a task to create an em
 
 Note: Validation will try to run the playbook using command ansible-playbook -i inventory playbook.yml so please make sure the playbook works this way without passing any extra arguments.
 ===================
+Step by step answer:
