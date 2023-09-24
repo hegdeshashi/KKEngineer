@@ -13,3 +13,4 @@ step by step answer:
 log in as sudo
 sudo su -
 verify--< cat /etc/ansible/ansible.cfg |grep remote_user -B5
+vi /etc/ansible/ansible.cfg ---> add user ---> remote_user = james
