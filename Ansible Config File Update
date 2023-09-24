@@ -11,3 +11,5 @@ On jump host make appropriate changes so that Ansible can use james as a default
 ==============
 step by step answer:
 log in as sudo
+sudo su -
+verify--< cat /etc/ansible/ansible.cfg |grep remote_user -B5
