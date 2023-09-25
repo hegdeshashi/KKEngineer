@@ -55,3 +55,4 @@ vi playbook.yml-->
 
         state: touch
 --------------
+ansible-playbook -i inventory playbook.yml --->
