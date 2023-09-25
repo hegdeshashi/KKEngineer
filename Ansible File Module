@@ -21,3 +21,4 @@ d. The user/group owner of file /opt/code.txt must be tony on app server 1, stev
 
 
 Note: Validation will try to run the playbook using command ansible-playbook -i inventory playbook.yml, so please make sure the playbook works this way without passing any extra arguments.
+=================
