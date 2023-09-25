@@ -32,3 +32,26 @@ stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=BigGr33n  ansible_user=banne
 ---------
 vi playbook.yml-->
 ------------
+- name: Create file in appservers
+
+  hosts: stapp01, stapp02, stapp03
+
+  become: yes
+
+  tasks:
+
+    - name: Create the file and set properties
+
+      file:
+
+        path: /opt/code.txt
+
+        owner: "{{ ansible_user }}"
+
+        group: "{{ ansible_user }}"
+
+        mode: "0744"
+
+
+        state: touch
+--------------
