@@ -55,4 +55,13 @@ vi playbook.yml-->
 
         state: touch
 --------------
-ansible-playbook -i inventory playbook.yml --->
+ansible-playbook -i inventory playbook.yml 
+ansible all -a "ls -lsd /opt/code.txt" -i inventory --->
+-------
+stapp03 | CHANGED | rc=0 >>
+0 -rwxr--r-- 1 banner banner 0 Sep 25 10:31 /opt/code.txt
+stapp01 | CHANGED | rc=0 >>
+0 -rwxr--r-- 1 tony tony 0 Sep 25 10:31 /opt/code.txt
+stapp02 | CHANGED | rc=0 >>
+0 -rwxr--r-- 1 steve steve 0 Sep 25 10:31 /opt/code.txt
+----------
