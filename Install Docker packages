@@ -14,3 +14,4 @@ Start docker service.
 login to stapp01
 ssh tony@stapp01
 sudo su
+curl -L "https://github.com/docker/compose/releases/download/1.28.6/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
