@@ -13,3 +13,4 @@ Start docker service.
 ============
 login to stapp01
 ssh tony@stapp01
+sudo su
