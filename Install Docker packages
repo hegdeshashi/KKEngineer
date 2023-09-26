@@ -30,3 +30,5 @@ systemctl start docker
  chmod +x /usr/local/bin/docker-compose 
  ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
  docker-compose --version
+
+now you can able to to docker-compose version
