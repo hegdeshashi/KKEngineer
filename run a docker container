@@ -16,3 +16,4 @@ ssh steve@stapp02
  login as sudo
 sudo su - 
 docker ps
+docker images
