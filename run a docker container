@@ -20,3 +20,4 @@ docker images
 docker run -d --name nginx_2 -p 8080:80 nginx:alpine
 docker ps
 docker images
+curl http://localhost:8080
