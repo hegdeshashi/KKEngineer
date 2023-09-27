@@ -17,3 +17,4 @@ ssh steve@stapp02
 sudo su - 
 docker ps
 docker images
+ocker run -d --name nginx_2 -p 8080:80 nginx:alpine
