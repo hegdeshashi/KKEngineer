@@ -12,3 +12,4 @@ On Application Server 2 create a container named nginx_2 using image nginx with 
 ====================
 Step by step answer:
 login to stapp02
+ssh steve@stapp02
