@@ -19,3 +19,4 @@ docker ps
 docker images
 docker run -d --name nginx_2 -p 8080:80 nginx:alpine
 docker ps
+docker images
