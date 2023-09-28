@@ -15,4 +15,4 @@ Step by step answer:
 login to stapp02
 ssh steve@stapp02
 sudo su -
-docker ps -a
+docker ps -a -- > make sure kke-container is running
