@@ -14,3 +14,4 @@ Delete a container named kke-container, its running on App Server 2 in Stratos D
 Step by step answer:
 login to stapp02
 ssh steve@stapp02
+sudo su -
