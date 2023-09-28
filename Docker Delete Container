@@ -17,3 +17,4 @@ ssh steve@stapp02
 sudo su -
 docker ps -a -- > make sure kke-container is running
 docker stop kke-container
+docker rm kke-container
