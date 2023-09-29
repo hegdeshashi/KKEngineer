@@ -25,3 +25,6 @@ docker start nautilus
   docker exec -it nautilus bash
 docker inspect --format "{{json .State.Health.Status}}" nautilus
 curl http://localhost:8080/
+
+---
+submit the task & close it.
