@@ -13,3 +13,15 @@ Container's volume /usr/local/apache2/htdocs is mapped with the host's volume /v
 
 The website should run on host port 8080 on App Server 1 i.e command curl http://localhost:8080/ should work on App Server 1.
 =============
+Step by step answer:
+
+docker ps  
+docker start nautilus
+  docker ps
+  docker logs nautilus
+  docker inspect nautilus
+  docker port nautilus
+  curl http://localhost:8080/
+  docker exec -it nautilus bash
+docker inspect --format "{{json .State.Health.Status}}" nautilus
+curl http://localhost:8080/
