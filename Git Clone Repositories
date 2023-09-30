@@ -16,3 +16,11 @@ Clone this git repository under /usr/src/kodekloudrepos directory. Please do not
 
 ==========================
 Step by step answer:
+
+  cd //usr/src/kodekloudrepos/
+   ls
+   
+   git clone /opt/games.git/
+   ls -lart
+   cd games/
+   ls -lart
