@@ -22,3 +22,7 @@ Note: For these kind of scenarios requiring changes to be done in a web UI, plea
 ==============================
 Solution:
 Step by step answer:
+
+click on Gui of Gitea
+Login with the credentials mentioned above.
+goto Git repo.. & fork it.
