@@ -21,4 +21,4 @@ Step by step answr:
    git branch
    git branch -d xfusioncorp_games
     git branch
-now 
+now make sure branch got deleted as expected
