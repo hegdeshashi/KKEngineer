@@ -1,0 +1,26 @@
+Git Delete Branches
+===================
+If you really look closely, most overnight successes took a long time.
+
+– Steve Jobs
+===================
+Problem statement:
+Nautilus developers are actively working on one of the project repositories, /usr/src/kodekloudrepos/games. They were doing some testing and created few test branches, now they want to clean those test branches. Below are the requirements that have been shared with the DevOps team:
+
+
+
+On Storage server in Stratos DC delete a branch named xfusioncorp_games from /usr/src/kodekloudrepos/games git repo.
+========================
+Step by step answr:
+ cd /usr/src/kodekloudrepos/
+    ls
+   cd games/
+   ls
+   git branch
+   git checkout master
+   git branch
+   git branch -d xfusioncorp_games
+    git branch
+now make sure branch got deleted as expected
+=============
+Submit & close the task.
