@@ -12,6 +12,7 @@ The DevOps team of xFusionCorp Industries is planning to setup some CI/CD pipeli
 
 2. Jenkin's admin user name should be theadmin, password should be Adm!n321, full name should be Mariyam and email should be mariyam@jenkins.stratos.xfusioncorp.com.
 
+
 Note:
 
 1. For this task, ssh into the jenkins server using user root and password S3curePass from jump host.
