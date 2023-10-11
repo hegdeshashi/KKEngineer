@@ -12,7 +12,6 @@ b. Create a playbook ~/playbook/playbook.yml to create a blank file /opt/code.tx
 c. The /opt/code.txt file permission must be 0744.
 d. The user/group owner of file /opt/code.txt must be tony on app server 1, steve on app server 2 and banner on app server 3.
 
-
 Note: Validation will try to run the playbook using command ansible-playbook -i inventory playbook.yml, so please make sure the playbook works this way without passing any extra arguments.
 =================
 Step by step answer:
