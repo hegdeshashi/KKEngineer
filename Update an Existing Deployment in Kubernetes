@@ -16,7 +16,7 @@ We already have a deployment named nginx-deployment and service named nginx-serv
 
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
 ==================
-Answer
+Answer:
 Step by step answer:
  kubectl get pods
     kubectl get deploy
