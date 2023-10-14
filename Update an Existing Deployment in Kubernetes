@@ -9,7 +9,6 @@ There is an application deployed on Kubernetes cluster. Recently, the Nautilus a
 We already have a deployment named nginx-deployment and service named nginx-service. Some changes need to be made in this deployment and service, make sure not to delete the deployment and service.
 
 1.) Change the service nodeport from 30008 to 32165
-
 2.) Change the replicas count from 1 to 5
 
 3.) Change the image from nginx:1.19 to nginx:latest
