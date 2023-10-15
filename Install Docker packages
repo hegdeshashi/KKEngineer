@@ -10,7 +10,7 @@ Install docker-ce and docker-compose packages on App Server 1.
 Start docker service.
 ============
 Answer:
-Step by step 
+Step by step guide
 login to stapp01
 ssh tony@stapp01
 sudo su
