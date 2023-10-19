@@ -13,7 +13,6 @@ Note: Validation will try to run the playbook using command ansible-playbook -i 
 ===================
 Answer:
 =========
-
 Step by step answer:
 
 Update --in the file -->/home/thor/ansible/inventory
