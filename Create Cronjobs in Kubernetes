@@ -17,7 +17,6 @@ Use nginx image with latest tag only and remember to mention the tag i.e nginx:l
 
 Run a dummy command echo Welcome to xfusioncorp!.
 
-
 Ensure restart policy is OnFailure.
 
 
