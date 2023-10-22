@@ -13,7 +13,6 @@ Set Its schedule to something like */10 * * * *, you set any schedule for now.
 
 Container name should be cron-xfusion.
 
-
 Use nginx image with latest tag only and remember to mention the tag i.e nginx:latest.
 
 
