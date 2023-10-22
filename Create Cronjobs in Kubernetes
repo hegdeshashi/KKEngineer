@@ -15,7 +15,6 @@ Container name should be cron-xfusion.
 
 Use nginx image with latest tag only and remember to mention the tag i.e nginx:latest.
 
-
 Run a dummy command echo Welcome to xfusioncorp!.
 
 
