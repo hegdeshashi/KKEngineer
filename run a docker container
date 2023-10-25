@@ -11,7 +11,7 @@ On Application Server 2 create a container named nginx_2 using image nginx with 
 ====================
 Answer:
 Step by step answer:
-Please login to stapp02 in the
+Please login to stapp02 in the terminal
 ssh steve@stapp02
  login as sudo
 sudo su - 
