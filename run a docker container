@@ -13,7 +13,7 @@ Answer:
 Step by step answer:
 Please login to stapp02 in the terminal
 ssh steve@stapp02
- login as sudo
+ login as sudo command
 sudo su - 
 docker ps
 docker images
