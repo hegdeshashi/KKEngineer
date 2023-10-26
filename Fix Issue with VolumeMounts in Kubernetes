@@ -14,7 +14,7 @@ Note: The kubectl utility on jump_host has been configured to work with the kube
 =========================
 Answer:
 step by step answer:
-
+Verify the details of pod
 kubectl get pods
     kubectl get configmap
     kubectl describe configmap nginx-config 
