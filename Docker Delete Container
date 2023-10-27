@@ -19,4 +19,4 @@ docker stop kke-container
 docker rm kke-container
 docker rm -a --> confirm kke-container deleted 
 ============
-SUbmit & close the task
+Submit & close the task
