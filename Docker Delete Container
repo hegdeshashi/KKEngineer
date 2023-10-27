@@ -9,7 +9,7 @@ One of the Nautilus project developers created a container on App Server 2. This
 
 Delete a container named kke-container, its running on App Server 2 in Stratos DC.
 ==============
-Answer
+Answer:
 Step by step answer:
 login to stapp02
 ssh steve@stapp02
