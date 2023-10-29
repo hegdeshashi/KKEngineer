@@ -10,7 +10,7 @@ Use command for i in 10 9 8 7 6 5 4 3 2 1 ; do echo $i ; done
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
 =======================
 Solution:
-
+Step by step guide
 kubectl get all
 
 cat countdown.yaml--->
