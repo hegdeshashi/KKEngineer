@@ -10,7 +10,7 @@ Solutions:-
 
 
 On App Server 3 in Stratos Datacenter copy an encrypted file /tmp/nautilus.txt.gpg from docker host to ubuntu_latest container (running on same server) in /tmp/ location. Please do not try to modify this file in any way.
-=====--
+=====
 Solution:
 
 login to stapp03 with sudo
