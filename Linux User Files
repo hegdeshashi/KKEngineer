@@ -9,7 +9,7 @@ There was some users data copied on Nautilus App Server 3 at /home/usersdata loc
 On App Server 3 find all files (not directories) owned by user anita inside /home/usersdata directory and copy them all while keeping the folder structure (preserve the directories path) to /official directory.
 ============
 Solution:
-Step by step
+Step by step 
 login to stapp03
 ssh banner@stapp03
 
