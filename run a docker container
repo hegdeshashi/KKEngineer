@@ -9,7 +9,7 @@ Nautilus DevOps team is testing some applications deployment on some of the appl
 
 On Application Server 2 create a container named nginx_2 using image nginx with alpine tag and make sure container is in running state.
 ====================
-A
+
 Step by step answer:
 Please login to stapp02 in the terminal
 ssh steve@stapp02
