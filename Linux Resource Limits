@@ -10,6 +10,7 @@ On our Storage server in Stratos Datacenter we are having some issues where nfsu
 a. soft limit = 1025
 b. hard_limit = 2024
 ============
+
 Step by step guide:
 
 login to stratos datacenter with sudo
