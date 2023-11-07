@@ -9,7 +9,7 @@ Last week the Nautilus DevOps team met with the application development team and
 Install docker-ce and docker-compose packages on App Server 1.
 Start docker service.
 ============
-So
+Solu
 Step by step guide:
 login to stapp01
 ssh tony@stapp01
