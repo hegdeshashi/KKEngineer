@@ -10,7 +10,7 @@ To stick with the security compliances, the Nautilus project team has decided to
 Allow crontab access to ammar user and deny the same to eric user.
 ===========
 Solution:
-Step by step
+Step by step guide
 login to stapp03
 ssh banner@stapp03
 sudo su 
