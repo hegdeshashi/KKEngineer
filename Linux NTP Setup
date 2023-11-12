@@ -7,7 +7,7 @@ The system admin team of xFusionCorp Industries has noticed an issue with some s
 2. Add NTP server 1.south-america.pool.ntp.org in NTP configuration on App Server 3.
 3. Please do not try to start/restart/stop ntp service, as we already have a restart for this service scheduled for tonight and we don't want these changes to be applied right now.
 =============
-Soluti
+Solution
 step by step guide:
 login to stapp03
 ssh banner@stapp03
