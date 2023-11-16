@@ -12,7 +12,7 @@ Once issue is fixed, copy /home/thor/index.php file from the jump host to the ng
 
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
 =========================
-So
+Solu
 step by step answer:
 Verify the details of pod
 kubectl get pods
