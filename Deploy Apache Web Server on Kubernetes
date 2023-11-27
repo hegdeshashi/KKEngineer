@@ -14,7 +14,7 @@ Create a service named as httpd-service-nautilus under same namespace to expose 
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.:
 ===========
 Solution:
-Step by st
+Step by ste
 
 cat tmp.yaml-->
 apiVersion: v1
